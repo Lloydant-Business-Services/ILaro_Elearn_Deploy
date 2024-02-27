@@ -39,6 +39,7 @@
           "FluentEmail.Mailgun": "3.0.2",
           "FluentEmail.Razor": "3.0.2",
           "FluentEmail.Smtp": "3.0.2",
+          "Microsoft.AspNet.SignalR.Core": "2.4.3",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.25",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.0",
           "Microsoft.EntityFrameworkCore": "5.0.7",
@@ -454,6 +455,21 @@
         }
       },
       "Humanizer.Core/2.8.26": {},
+      "Microsoft.AspNet.SignalR.Core/2.4.3": {
+        "dependencies": {
+          "Microsoft.Owin.Security": "2.1.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {
+            "assemblyVersion": "2.4.3.0",
+            "fileVersion": "2.4.3.22014"
+          }
+        },
+        "compile": {
+          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.25": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.6.0"
@@ -1156,6 +1172,35 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
+      "Microsoft.Owin/2.1.0": {
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.30113.529"
+          }
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Security/2.1.0": {
+        "dependencies": {
+          "Microsoft.Owin": "2.1.0",
+          "Owin": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.30113.529"
+          }
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.dll": {}
+        }
+      },
       "Microsoft.Win32.Primitives/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -1245,6 +1290,17 @@
         },
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "runtime": {
+          "lib/net40/Owin.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net40/Owin.dll": {}
         }
       },
       "PayStackDotNetSDK/1.4.4": {
@@ -2439,6 +2495,7 @@
           "FluentEmail.Mailgun": "3.0.2",
           "FluentEmail.Razor": "3.0.2",
           "FluentEmail.Smtp": "3.0.2",
+          "Microsoft.AspNet.SignalR.Core": "2.4.3",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.0",
           "Microsoft.EntityFrameworkCore": "5.0.7",
           "Microsoft.EntityFrameworkCore.Proxies": "5.0.7",
@@ -2464,6 +2521,7 @@
           "FluentEmail.Mailgun": "3.0.2",
           "FluentEmail.Razor": "3.0.2",
           "FluentEmail.Smtp": "3.0.2",
+          "Microsoft.AspNet.SignalR.Core": "2.4.3",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.0",
           "Microsoft.EntityFrameworkCore": "5.0.7",
           "Microsoft.EntityFrameworkCore.Proxies": "5.0.7",
@@ -4100,6 +4158,13 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
+    "Microsoft.AspNet.SignalR.Core/2.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zxvv9HhsUa3nfyC7rIwFxHVcGffyQrjqNUO6pBKLyv3eFigkEy3N+6KbbSedzIyCfthglTbvU+m4sg8tawRlvA==",
+      "path": "microsoft.aspnet.signalr.core/2.4.3",
+      "hashPath": "microsoft.aspnet.signalr.core.2.4.3.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.25": {
       "type": "package",
       "serviceable": true,
@@ -4422,6 +4487,20 @@
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
     },
+    "Microsoft.Owin/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lk0kK64mlmcmtWX8YOYkZsnZKDoGEzMZhe8e1bcP+FFcgD4f2QfKwvu5Z8Bh8WS0VO7Rgk+DJ0hwW0k+S/UGMg==",
+      "path": "microsoft.owin/2.1.0",
+      "hashPath": "microsoft.owin.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Owin.Security/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4n1V0p+O6W1L0xHUM8Cjp2Y+MmmUkiCZv6PvRNIDCJD9zlerBJa2HECo9lUiWC+KuasQJ3QxB1FmipNBxdXXIQ==",
+      "path": "microsoft.owin.security/2.1.0",
+      "hashPath": "microsoft.owin.security.2.1.0.nupkg.sha512"
+    },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -4456,6 +4535,13 @@
       "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "path": "newtonsoft.json/13.0.1",
       "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Owin/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "path": "owin/1.0.0",
+      "hashPath": "owin.1.0.0.nupkg.sha512"
     },
     "PayStackDotNetSDK/1.4.4": {
       "type": "package",
